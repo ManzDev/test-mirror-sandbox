@@ -1,0 +1,39 @@
+{
+  "name": "test-mirror-sandbox",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "rm -rf dist && vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "eslint-config-manzdev": "^0.0.8",
+    "gh-pages": "^6.1.1",
+    "stylelint": "16.3.1",
+    "stylelint-config-manzdev": "^0.0.18",
+    "vite": "^5.4.0",
+    "vite-tsconfig-paths": "^5.0.1"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "@codemirror/autocomplete": "^6.18.0",
+    "@codemirror/commands": "^6.6.0",
+    "@codemirror/fold": "^0.19.4",
+    "@codemirror/lang-css": "^6.2.1",
+    "@codemirror/lang-html": "^6.4.9",
+    "@codemirror/lang-javascript": "^6.2.2",
+    "@codemirror/language": "^6.10.2",
+    "@codemirror/lint": "^6.8.1",
+    "@codemirror/search": "^6.5.6",
+    "@codemirror/state": "^6.4.1",
+    "@codemirror/view": "^6.32.0",
+    "@lezer/highlight": "^1.2.1",
+    "codemirror": "^6.0.1",
+    "js-beautify": "^1.15.1",
+    "thememirror": "^2.0.1"
+  }
+}
